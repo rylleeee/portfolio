@@ -1,4 +1,15 @@
 import './App.css';
+import project1 from "./assets/images/project1.png";
+import project2 from "./assets/images/project2.png";
+
+import project3 from "./assets/images/project3.jpg";
+import project4 from "./assets/images/project4.jpeg";
+
+import certificate1 from "./assets/images/certificate1.png";
+import certificate2 from "./assets/images/certificate2.jpg";
+import certificate3 from "./assets/images/certificate3.jpg";
+
+import pic1 from "./assets/images/pic1.jpeg";
 
 function App() {
   return (
@@ -24,8 +35,7 @@ function App() {
 
         <div className="header-images">
           <div className="header-image-container">
-            {/* fixed alt text */}
-            <img src="/images/pic1.jpeg" alt="Karylle Lorenzo" />
+            <img src={pic1} alt="Karylle Lorenzo" />
           </div>
         </div>
       </header>
@@ -59,7 +69,7 @@ function App() {
 
         <div className="certificates">
           <div className="cert-card">
-            <img src="/images/certificate1.png" alt="SAP Certificate" />
+            <img src={certificate1} alt="SAP Certificate" />
             <div className="overlay">
               <p>SAP Certificate</p>
             </div>
@@ -67,7 +77,7 @@ function App() {
 
           <div className="cert-card">
             <img
-              src="/images/certificate2.jpg"
+              src={certificate2}
               alt="Best in System College Fair 2025 certificate"
             />
             <div className="overlay">
@@ -77,7 +87,7 @@ function App() {
 
           <div className="cert-card">
             <img
-              src="/images/certificate3.jpg"
+              src={certificate3}
               alt="Best in Presentation College Fair 2025 certificate"
             />
             <div className="overlay">
@@ -97,7 +107,7 @@ function App() {
             rel="noreferrer"
             className="project-card"
           >
-            <img src="/images/project1.png" alt="Project 1 preview" />
+            <img src={project1} alt="Project 1 preview" />
           </a>
 
           <a
@@ -106,7 +116,7 @@ function App() {
             rel="noreferrer"
             className="project-card"
           >
-            <img src="/images/project2.png" alt="Project 2 preview" />
+            <img src={project2} alt="Project 2 preview" />
           </a>
 
           <a
@@ -115,7 +125,7 @@ function App() {
             rel="noreferrer"
             className="project-card"
           >
-            <img src="/images/project3.jpg" alt="Project 3 preview" />
+            <img src={project3} alt="Project 3 preview" />
           </a>
 
           <a
@@ -124,7 +134,7 @@ function App() {
             rel="noreferrer"
             className="project-card"
           >
-            <img src="/images/project4.jpeg" alt="Project 4 preview" />
+            <img src={project4} alt="Project 4 preview" />
           </a>
         </div>
       </section>
